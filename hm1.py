@@ -9,8 +9,8 @@ print(f"Table {db}.{schema}.{table} has {row_count} rows. Loaded: {is_loaded}")
 # Exercise 2
 qty = "7"
 unit_price = "12.50"
-total_price = float(qty) * float(unit_price)
-print(f"Total price = {total_price}")
+total_price = int(qty) * float(unit_price)
+print(f"Total price = {total_price:.2f}") # Total price = 87.50
 
 print(type(total_price)) 
 
